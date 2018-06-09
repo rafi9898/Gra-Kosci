@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafał Podraza">
+    <meta name="description" content="Tradycyjna gra kościu multiplayer!">
+    <meta name="keywords" content="gra,kości,wieloosobowa,multiplayer">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Gra w Kości - Zagraj Teraz!</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Eater&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                        <h1 class="display-4 text-center">Gra w Kości</h1>
+                        <p class="lead first">Nick Gracza I: </p>
+                        <input type="text" id="nick1" class="form-control text-center">
+                        <p class="lead">Nick Gracza II: </p>
+                        <input type="text" id="nick2" class="form-control text-center">
+                        </div>
+                        
+                        <div class="alert alert-danger text-center popInfo" role="alert">
+                          Uzupełnij wszystkie pola!
+                        </div>
+                        
+                        <!--Generator Planszy!-->
+                        
+                        <div class="Area">
+                           <div class="container">
+                               <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="alert alert-success winRound text-center" role="alert">
+                                          
+                                      </div>
+                                  </div>
+                                   <div class="col-md-6">
+                                   <p class="player1"></p>
+                                   <ul>
+                                       
+                                   </ul>
+                               </div>
+
+                                <div class="col-md-6">
+                                    <p class="player2"></p>
+                                    <ul>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div class="dice">
+                                  <div class="col-md-12">
+                                      <img src="" alt="dice" class="maindice">
+                                  </div>
+                                   
+                                    <button type="button" class="btn btn-success"></button>
+                                </div>
+                               </div>
+                           </div>
+                            
+                        </div>
+                        
+                        
+                        <div class="btnInter">
+                            <div class="col-md-6">
+                                <button id="reset" class="btn btn-danger btn-lg">ZRESETUJ</button>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <button id="start" class="btn btn-success btn-lg">START</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="heroimg">
+                        <img src="img/angel.png" class="angel" alt="angel">
+                        <img src="img/devil.png" class="devil" alt="devil">
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </section>
+    
+    
+    
+    
+    
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

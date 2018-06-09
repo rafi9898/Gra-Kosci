@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Eater', cursive;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+
+
+.intro .jumbotron {
+    margin-top: 15%;
+    box-shadow: 2px 3px 3px black;
+    border-radius: 15px;
+}
+
+.intro .jumbotron h1 {
+    color: crimson;
+    text-shadow: 1px 2px black;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.intro .jumbotron p.first {
+    margin-top: 40px;
+}
+
+.intro .jumbotron p {
+    text-align: center;
+    font-style: italic;
+}
+
+.intro .jumbotron .form-control {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnInter {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btnInter button {
+    box-shadow: 1px 2px 2px black;
+}
+
+.heroimg img.angel {
+    position: absolute;
+    right: -340px;
+    top: 140px;
+    width: 47%;
+}
+
+.heroimg img.devil {
+    position: absolute;
+    left: -170px;
+    top: 340px;
+}
+
+.popInfo {
+    display: none;
+}
+
+.Area {
+    text-align: center;
+    display: none;
+}
+
+.Area p {
+    display: inline-block;
+}
+
+.dice {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.maindice {
+    width: 50%;
+    display: none;
+}
+
+.winRound {
+    display: none;
+}
+
+@media only screen and (max-width: 1840px) {
+    
+    .heroimg img.angel {
+    position: absolute;
+    right: -110px;
+    top: 140px;
+    width: 33%;
+}
+    
+}
+
+@media only screen and (max-width: 1300px) {
+    
+    .heroimg img.devil {
+    position: absolute;
+    left: -90px;
+    top: 400px;
+    width: 24%;
+}
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .heroimg img.devil {
+        display: none;
+    }
+
+    .heroimg img.angel {
+        display: none;
+    }
+    
+    .intro .jumbotron h1 {
+        font-size: 28px;
+    }
+    
+    .intro .jumbotron p {
+        font-size: 18px;
+    }
+    
+    .btnInter button {
+        font-size: 14px;
+    }
+    
+    
+}
