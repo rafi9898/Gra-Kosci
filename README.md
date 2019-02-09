@@ -5,6 +5,6 @@
 
 
 
-<center>Demo: <a href="https://rpodraza.pl/demo9/">Kliknij Tutaj</a></center>
+<center>Demo: <a href="https://rafal-podraza.pl/demo9/">Kliknij Tutaj</a></center>
 
-<center><img src="https://rpodraza.pl/img/projekty/graKosci.png" alt="Screen Aplikacji"></center>
+<center><img src="https://rafal-podraza.pl/img/projekty/graKosci.png" alt="Screen Aplikacji"></center>
